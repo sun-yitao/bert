@@ -238,7 +238,7 @@ class FashionProcessor(DataProcessor):
       guid = "%s-%s" % (set_type, i)
       if set_type == "test":
         text_a = tokenization.convert_to_unicode(line[1])
-        label = "0"
+        label = "17"
       else:
         text_a = tokenization.convert_to_unicode(line[3])
         label = tokenization.convert_to_unicode(line[1])
@@ -325,7 +325,7 @@ class MobileProcessor(DataProcessor):
       guid = "%s-%s" % (set_type, i)
       if set_type == "test":
         text_a = tokenization.convert_to_unicode(line[1])
-        label = "0"
+        label = "31"
       else:
         text_a = tokenization.convert_to_unicode(line[3])
         label = tokenization.convert_to_unicode(line[1])
